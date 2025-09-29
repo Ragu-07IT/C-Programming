@@ -1,0 +1,20 @@
+//Program to print the grade of student on the basis of marks obtain by the student.
+#include<stdio.h>
+int main(){
+    int point;
+    printf("Enter your marks:");
+    scanf("%d",&point);
+    if(point>=90)
+       printf("Your grade is A+");
+    else if(point>=80)
+       printf("Your grade is A");
+    else if(point>=70)
+       printf("Your grade is B+ ");
+    else if(point>=60)
+       printf("Your grade is B");
+    else if(point>=50)
+       printf("Your grade is C");
+    else
+       printf("Your grade is S");
+       return 0;
+}
