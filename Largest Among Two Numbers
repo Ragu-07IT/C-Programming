@@ -7,3 +7,16 @@ int main(){
     (x>y) ? printf("X is largest") : printf("Y is largest");
     return 0;
 }
+                     OR
+//Program to find the largest number among two using if-else statement.
+#include<stdio.h>
+int main(){
+    int x,y;
+    printf("Enter the value of X and Y:");
+    scanf("%d %d",&x ,&y);
+    if(x>y)
+        printf("X is largest");
+    else
+        printf("Y is largest");
+    return 0;
+}
