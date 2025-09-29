@@ -1,0 +1,56 @@
+//Program for arithmetic operations like addition,subtraction,multiplication,remainder.
+#include<stdio.h>
+int main(){
+    int a, b, sum, subtraction,multiplication,division ;
+    printf("Enter the first number=");
+    scanf("%d",&a);
+    printf("Enter the second number=");
+    scanf("%d",&b);
+    sum=a+b;
+    subtraction=a-b;
+    multiplication=a*b;
+    division=a/b;
+    printf(" the result of two numbers are=%d,%d,%d,%d",sum,subtraction,multiplication,division);
+    return 0;
+}
+                                           OR
+//Wap to calculate the area and parameters of circle,square and rectangle.
+#include<stdio.h>
+int main(){
+    float r,area,parameters ;
+    printf("Enter the value of radius=");
+    scanf("%f",&r);
+    area=3.14*r*r;
+    parameters=2*3.14*r;
+    printf("The area and parameter of circle is=%f,%f",area,parameters);
+        
+    int a,b,c,d;
+    printf("\nEnter the value of length=");
+    scanf("%d",&a);
+    printf("Enter the value of width=");
+    scanf("%d",&b);
+    c=a*b;
+    d=2*(a+b);
+    printf("The area and parameters of rectangle is=%d,%d",c,d);
+
+    int e,side,ar,pr;
+    printf("\nEnter the value of side=");
+    scanf("%d",&e);
+    ar=4*e;
+    pr=e*e;
+    printf("The area and parameters of square is=%d,%d",ar,pr);
+}
+                                           OR
+//Program to find the Euclidean distance between two points.
+#include<stdio.h>
+#include<math.h>
+int main(){
+float x1,x2,y1,y2,distance;
+printf("Enter the value of X coordinates(x1,x2)=");
+scanf("%f%f",&x1,&x2);
+printf("Enter the value of Y coordinates(y1,y2)=");
+scanf("%f%f",&y1, &y2);
+distance=sqrt(pow(x2-x1,2)+(pow(y2-y1,2)));
+printf("The distance btw two points is=%f,",distance);
+return 0;
+}
