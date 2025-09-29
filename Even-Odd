@@ -7,3 +7,20 @@ int main(){
     (x%2==0) ? printf("X is even number") : printf("X is odd number");
     return 0;
 } 
+
+
+                        OR
+
+//Program to check whether the number is even or odd.
+#include<stdio.h>
+int main(){
+    int num;
+    printf("Enter a number:");
+    scanf("%d",&num);
+    if(num % 2 ==0)
+        printf("%d is even number\n",num);
+    else
+        printf("%d is odd number\n",num);
+    
+    return 0;
+}
