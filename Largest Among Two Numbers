@@ -14,9 +14,11 @@ int main(){
     int x,y;
     printf("Enter the value of X and Y:");
     scanf("%d %d",&x ,&y);
-    if(x>y)
+    if(x>y){
         printf("X is largest");
-    else
+}
+    else{
         printf("Y is largest");
+}
     return 0;
 }
