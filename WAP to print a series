@@ -1,0 +1,14 @@
+//WAP to print a series.
+#include<stdio.h>
+#include<math.h>
+int main(){
+  int i,n, ans=0;
+    printf("Enter the value of N:");
+    scanf("%d",&n);
+    for(i=1;i<=n;i++){
+        ans = i*i;
+        printf("%d ",ans);
+    }
+    return 0;
+
+}
