@@ -1,3 +1,28 @@
+//WAP to check if a number is prime or noot using a for loop
+#include<stdio.h>
+int main(){
+    int num,flag=0;
+    scanf("%d",&num);
+    int i=2;
+    while(i<num/2){
+        if(num%i == 0){
+            flag=1;
+            break;
+        }
+        i++;
+    }
+    if(flag == 0)
+        printf("Prime");
+    else
+        printf("Not Prime");
+    return 0;
+}
+
+
+
+
+
+                                   OR
 //WAP to perform the sum of all the digits of the given number using a while loop.
 #include<stdio.h>
 int main(){
