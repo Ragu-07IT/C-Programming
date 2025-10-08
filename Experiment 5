@@ -1,4 +1,4 @@
-//WAP to perform the sum of all the digits of the given number.
+//WAP to perform the sum of all the digits of the given number using a while loop.
 #include<stdio.h>
 int main(){
     int num,sum=0,digit;
@@ -13,6 +13,32 @@ int main(){
     }
     printf("Sum of digits=%d\n",sum);
     
+
+    return 0;
+}
+                                                        OR
+//WAP to check if a number is Armstrong or not using while loop.
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    int num, sum=0,count=0,lastdigit;
+    scanf("%d",&num);
+    int temp=num;
+    while(temp != 0){
+        temp = temp/10;
+        count ++;
+    }
+    temp=num;
+    while(temp != 0){
+        lastdigit = temp%10;
+        sum = sum + pow(lastdigit,count);
+        temp = temp/10;
+    }
+    if (num == sum)
+        printf("Armstrong");
+    else
+        printf("Not Armstrong");
 
     return 0;
 }
