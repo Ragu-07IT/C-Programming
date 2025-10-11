@@ -1,3 +1,4 @@
+//WAP to print Pattern.
 #include<stdio.h>
 int main(){
     int num;
